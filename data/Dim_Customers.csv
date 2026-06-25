@@ -1,0 +1,801 @@
+Customer_ID,Customer_Name,Segment,City,State,Country,Region,Postal_Code
+CS-00001,William White,Home Office,Los Angeles,California,United States,West,90001
+CS-00002,Thomas Martinez,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00003,Linda Davis,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00004,Christopher Martinez,Corporate,Nashville,Tennessee,United States,South,37201
+CS-00005,Richard Brown,Corporate,Dallas,Texas,United States,Central,75201
+CS-00006,Linda Williams,Consumer,Los Angeles,California,United States,West,90001
+CS-00007,Jane Anderson,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00008,Patricia Johnson,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00009,John Anderson,Consumer,San Francisco,California,United States,West,94102
+CS-00010,Barbara Martin,Home Office,Atlanta,Georgia,United States,South,30301
+CS-00011,Elizabeth Moore,Consumer,San Francisco,California,United States,West,94102
+CS-00012,Thomas Hernandez,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00013,Christopher Anderson,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00014,Karen Williams,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00015,Michael Thompson,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00016,William Rodriguez,Corporate,Dallas,Texas,United States,Central,75201
+CS-00017,William Jackson,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00018,Mary Thomas,Corporate,Seattle,Washington,United States,West,98101
+CS-00019,Sarah Rodriguez,Corporate,Nashville,Tennessee,United States,South,37201
+CS-00020,Jane White,Consumer,New York City,New York,United States,East,10001
+CS-00021,Thomas Davis,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00022,Barbara Garcia,Home Office,Miami,Florida,United States,South,33101
+CS-00023,Thomas Williams,Corporate,Seattle,Washington,United States,West,98101
+CS-00024,Susan Martin,Consumer,Los Angeles,California,United States,West,90001
+CS-00025,Mary Jackson,Corporate,Los Angeles,California,United States,West,90001
+CS-00026,Linda Brown,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00027,Jane Miller,Consumer,Miami,Florida,United States,South,33101
+CS-00028,Elizabeth Brown,Consumer,Buffalo,New York,United States,East,14201
+CS-00029,Sarah Anderson,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00030,Jane Wilson,Home Office,Detroit,Michigan,United States,Central,48201
+CS-00031,Mary Thomas,Corporate,San Francisco,California,United States,West,94102
+CS-00032,Jessica Hernandez,Corporate,Houston,Texas,United States,Central,77001
+CS-00033,Linda Thomas,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00034,Linda Moore,Consumer,Dallas,Texas,United States,Central,75201
+CS-00035,Joseph Jackson,Consumer,Seattle,Washington,United States,West,98101
+CS-00036,Thomas Taylor,Home Office,Nashville,Tennessee,United States,South,37201
+CS-00037,David Hernandez,Consumer,Dallas,Texas,United States,Central,75201
+CS-00038,Joseph Smith,Home Office,Los Angeles,California,United States,West,90001
+CS-00039,William Rodriguez,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00040,John Anderson,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00041,Linda Martinez,Corporate,New York City,New York,United States,East,10001
+CS-00042,Christopher Martin,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00043,Linda Williams,Home Office,Chicago,Illinois,United States,Central,60601
+CS-00044,Robert Smith,Home Office,Boston,Massachusetts,United States,East,02108
+CS-00045,Michael Wilson,Consumer,Buffalo,New York,United States,East,14201
+CS-00046,William Rodriguez,Consumer,Houston,Texas,United States,Central,77001
+CS-00047,William Rodriguez,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00048,Linda Anderson,Home Office,Atlanta,Georgia,United States,South,30301
+CS-00049,Jane Smith,Consumer,Los Angeles,California,United States,West,90001
+CS-00050,Jessica Jones,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00051,Robert Anderson,Corporate,Miami,Florida,United States,South,33101
+CS-00052,Linda Williams,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00053,John Williams,Consumer,Miami,Florida,United States,South,33101
+CS-00054,Michael Hernandez,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00055,Susan Williams,Home Office,Boston,Massachusetts,United States,East,02108
+CS-00056,John Jones,Consumer,San Francisco,California,United States,West,94102
+CS-00057,Susan Davis,Consumer,Buffalo,New York,United States,East,14201
+CS-00058,David Hernandez,Home Office,San Francisco,California,United States,West,94102
+CS-00059,Thomas Wilson,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00060,Joseph Thompson,Home Office,Detroit,Michigan,United States,Central,48201
+CS-00061,William Martin,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00062,Karen Brown,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00063,Michael Davis,Home Office,Dallas,Texas,United States,Central,75201
+CS-00064,Joseph Hernandez,Consumer,Buffalo,New York,United States,East,14201
+CS-00065,Richard Brown,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00066,Joseph Davis,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00067,Christopher Johnson,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00068,Elizabeth Taylor,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00069,Patricia Anderson,Consumer,Los Angeles,California,United States,West,90001
+CS-00070,Barbara White,Home Office,Portland,Oregon,United States,West,97201
+CS-00071,Richard Davis,Consumer,Buffalo,New York,United States,East,14201
+CS-00072,John Smith,Corporate,San Francisco,California,United States,West,94102
+CS-00073,Karen Taylor,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00074,David Williams,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00075,William Miller,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00076,Linda Rodriguez,Home Office,Atlanta,Georgia,United States,South,30301
+CS-00077,Michael Smith,Consumer,Houston,Texas,United States,Central,77001
+CS-00078,Christopher Wilson,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00079,Barbara Hernandez,Consumer,Los Angeles,California,United States,West,90001
+CS-00080,David White,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00081,Charles Martin,Corporate,Portland,Oregon,United States,West,97201
+CS-00082,Karen Anderson,Consumer,Houston,Texas,United States,Central,77001
+CS-00083,William Johnson,Home Office,Atlanta,Georgia,United States,South,30301
+CS-00084,Robert Martin,Consumer,New York City,New York,United States,East,10001
+CS-00085,Michael Martin,Consumer,Los Angeles,California,United States,West,90001
+CS-00086,Charles Martin,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00087,Jane Johnson,Corporate,Boston,Massachusetts,United States,East,02108
+CS-00088,Michael Smith,Consumer,Buffalo,New York,United States,East,14201
+CS-00089,John Thompson,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00090,Jane Anderson,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00091,Patricia Brown,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00092,Richard Martin,Corporate,Buffalo,New York,United States,East,14201
+CS-00093,Patricia Jones,Consumer,Houston,Texas,United States,Central,77001
+CS-00094,Karen Johnson,Home Office,Dallas,Texas,United States,Central,75201
+CS-00095,Patricia Martinez,Home Office,Chicago,Illinois,United States,Central,60601
+CS-00096,Jessica Moore,Corporate,Seattle,Washington,United States,West,98101
+CS-00097,John Rodriguez,Home Office,Nashville,Tennessee,United States,South,37201
+CS-00098,Patricia Moore,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00099,Robert White,Consumer,San Francisco,California,United States,West,94102
+CS-00100,Mary Thompson,Consumer,New York City,New York,United States,East,10001
+CS-00101,Robert Thompson,Consumer,Los Angeles,California,United States,West,90001
+CS-00102,Karen Davis,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00103,Karen Rodriguez,Home Office,Dallas,Texas,United States,Central,75201
+CS-00104,John Garcia,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00105,William Jackson,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00106,Linda Smith,Consumer,Dallas,Texas,United States,Central,75201
+CS-00107,Richard Jackson,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00108,Elizabeth Williams,Consumer,New York City,New York,United States,East,10001
+CS-00109,William Moore,Corporate,Boston,Massachusetts,United States,East,02108
+CS-00110,Jessica White,Consumer,Miami,Florida,United States,South,33101
+CS-00111,Charles Johnson,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00112,John Moore,Home Office,Buffalo,New York,United States,East,14201
+CS-00113,Barbara Jones,Home Office,Buffalo,New York,United States,East,14201
+CS-00114,Michael Rodriguez,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00115,David Williams,Home Office,Portland,Oregon,United States,West,97201
+CS-00116,Christopher Moore,Corporate,Portland,Oregon,United States,West,97201
+CS-00117,Jessica Williams,Home Office,Detroit,Michigan,United States,Central,48201
+CS-00118,Karen Smith,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00119,Karen Martinez,Corporate,Seattle,Washington,United States,West,98101
+CS-00120,Charles Garcia,Consumer,San Francisco,California,United States,West,94102
+CS-00121,Mary Miller,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00122,Linda White,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00123,Robert Moore,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00124,Robert Jackson,Consumer,New York City,New York,United States,East,10001
+CS-00125,Susan Jackson,Corporate,Portland,Oregon,United States,West,97201
+CS-00126,Jane Williams,Consumer,Seattle,Washington,United States,West,98101
+CS-00127,Jessica Rodriguez,Corporate,Seattle,Washington,United States,West,98101
+CS-00128,Mary Smith,Home Office,Nashville,Tennessee,United States,South,37201
+CS-00129,Mary Smith,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00130,Susan Moore,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00131,Karen Garcia,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00132,William Williams,Home Office,Houston,Texas,United States,Central,77001
+CS-00133,Charles Smith,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00134,Jessica Anderson,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00135,Christopher Thomas,Home Office,San Francisco,California,United States,West,94102
+CS-00136,Patricia Miller,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00137,Joseph Thompson,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00138,Linda Johnson,Consumer,Los Angeles,California,United States,West,90001
+CS-00139,John Hernandez,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00140,John Jones,Home Office,Chicago,Illinois,United States,Central,60601
+CS-00141,Jessica Thompson,Corporate,Los Angeles,California,United States,West,90001
+CS-00142,Mary Williams,Consumer,Los Angeles,California,United States,West,90001
+CS-00143,Charles Martin,Home Office,Atlanta,Georgia,United States,South,30301
+CS-00144,Barbara Thomas,Corporate,Boston,Massachusetts,United States,East,02108
+CS-00145,Patricia Williams,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00146,David Jones,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00147,Charles Thomas,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00148,Robert Smith,Consumer,New York City,New York,United States,East,10001
+CS-00149,Karen Smith,Corporate,Seattle,Washington,United States,West,98101
+CS-00150,Robert Jackson,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00151,Elizabeth Williams,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00152,Linda Thomas,Home Office,Detroit,Michigan,United States,Central,48201
+CS-00153,Sarah Hernandez,Consumer,Miami,Florida,United States,South,33101
+CS-00154,Jane Wilson,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00155,Jane Martin,Consumer,Buffalo,New York,United States,East,14201
+CS-00156,Linda Smith,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00157,David Martinez,Corporate,New York City,New York,United States,East,10001
+CS-00158,Jessica Davis,Corporate,San Francisco,California,United States,West,94102
+CS-00159,Elizabeth Williams,Corporate,Dallas,Texas,United States,Central,75201
+CS-00160,Sarah Taylor,Home Office,Dallas,Texas,United States,Central,75201
+CS-00161,William Brown,Consumer,Seattle,Washington,United States,West,98101
+CS-00162,Joseph White,Consumer,Dallas,Texas,United States,Central,75201
+CS-00163,John Garcia,Corporate,Dallas,Texas,United States,Central,75201
+CS-00164,Susan Moore,Home Office,Buffalo,New York,United States,East,14201
+CS-00165,Susan Anderson,Corporate,Portland,Oregon,United States,West,97201
+CS-00166,Christopher Hernandez,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00167,Jane Johnson,Consumer,San Francisco,California,United States,West,94102
+CS-00168,Christopher Martin,Home Office,Atlanta,Georgia,United States,South,30301
+CS-00169,Karen Wilson,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00170,Patricia Hernandez,Corporate,Los Angeles,California,United States,West,90001
+CS-00171,Richard Jones,Consumer,Portland,Oregon,United States,West,97201
+CS-00172,John Garcia,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00173,Barbara Anderson,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00174,Michael Davis,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00175,Mary Miller,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00176,Joseph White,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00177,Thomas Williams,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00178,Linda White,Consumer,Dallas,Texas,United States,Central,75201
+CS-00179,Jessica Taylor,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00180,Sarah Wilson,Consumer,New York City,New York,United States,East,10001
+CS-00181,Christopher Martin,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00182,Christopher Jones,Corporate,Portland,Oregon,United States,West,97201
+CS-00183,David Anderson,Corporate,Portland,Oregon,United States,West,97201
+CS-00184,John Smith,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00185,Thomas Johnson,Consumer,Houston,Texas,United States,Central,77001
+CS-00186,Jessica Garcia,Consumer,San Francisco,California,United States,West,94102
+CS-00187,Joseph Smith,Home Office,Seattle,Washington,United States,West,98101
+CS-00188,Jessica Davis,Corporate,San Francisco,California,United States,West,94102
+CS-00189,Michael Williams,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00190,Barbara Moore,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00191,Christopher Jones,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00192,Susan Jones,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00193,Thomas Martin,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00194,Susan White,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00195,Michael Anderson,Corporate,Houston,Texas,United States,Central,77001
+CS-00196,Jessica Moore,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00197,William Brown,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00198,John Jones,Home Office,Detroit,Michigan,United States,Central,48201
+CS-00199,Elizabeth Jones,Corporate,Boston,Massachusetts,United States,East,02108
+CS-00200,Mary Johnson,Home Office,Miami,Florida,United States,South,33101
+CS-00201,Karen Wilson,Consumer,Seattle,Washington,United States,West,98101
+CS-00202,Christopher Smith,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00203,Michael Taylor,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00204,Mary Moore,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00205,Jessica Johnson,Home Office,Dallas,Texas,United States,Central,75201
+CS-00206,Charles White,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00207,Barbara Jackson,Home Office,Seattle,Washington,United States,West,98101
+CS-00208,Robert Smith,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00209,John Thompson,Home Office,Detroit,Michigan,United States,Central,48201
+CS-00210,Richard Jones,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00211,Barbara Williams,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00212,John Smith,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00213,Linda Wilson,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00214,Richard Anderson,Consumer,Portland,Oregon,United States,West,97201
+CS-00215,Joseph Anderson,Consumer,San Francisco,California,United States,West,94102
+CS-00216,Susan Johnson,Home Office,Los Angeles,California,United States,West,90001
+CS-00217,Christopher Jackson,Corporate,Miami,Florida,United States,South,33101
+CS-00218,Robert Martin,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00219,Linda Wilson,Corporate,Portland,Oregon,United States,West,97201
+CS-00220,Jane Thompson,Corporate,New York City,New York,United States,East,10001
+CS-00221,David Davis,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00222,Mary Jackson,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00223,Joseph Martinez,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00224,Mary Brown,Consumer,New York City,New York,United States,East,10001
+CS-00225,Elizabeth Jones,Corporate,Portland,Oregon,United States,West,97201
+CS-00226,David Williams,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00227,Charles Williams,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00228,Jessica Brown,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00229,Sarah Martin,Consumer,Dallas,Texas,United States,Central,75201
+CS-00230,William Jones,Corporate,Los Angeles,California,United States,West,90001
+CS-00231,Barbara Martin,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00232,Joseph Williams,Home Office,Chicago,Illinois,United States,Central,60601
+CS-00233,David Martin,Consumer,Dallas,Texas,United States,Central,75201
+CS-00234,Charles White,Home Office,Atlanta,Georgia,United States,South,30301
+CS-00235,Jessica Taylor,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00236,Christopher Martin,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00237,Mary Anderson,Corporate,Boston,Massachusetts,United States,East,02108
+CS-00238,David Thompson,Home Office,Dallas,Texas,United States,Central,75201
+CS-00239,Barbara Rodriguez,Corporate,Boston,Massachusetts,United States,East,02108
+CS-00240,William Thomas,Home Office,Detroit,Michigan,United States,Central,48201
+CS-00241,Karen Thompson,Home Office,Portland,Oregon,United States,West,97201
+CS-00242,Thomas Moore,Consumer,Buffalo,New York,United States,East,14201
+CS-00243,Michael Williams,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00244,Barbara White,Corporate,Miami,Florida,United States,South,33101
+CS-00245,Mary Moore,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00246,William Taylor,Home Office,San Francisco,California,United States,West,94102
+CS-00247,Elizabeth Davis,Home Office,Chicago,Illinois,United States,Central,60601
+CS-00248,Susan Jones,Consumer,Portland,Oregon,United States,West,97201
+CS-00249,Robert Martinez,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00250,Richard Jackson,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00251,Thomas Anderson,Consumer,Seattle,Washington,United States,West,98101
+CS-00252,David Wilson,Home Office,Nashville,Tennessee,United States,South,37201
+CS-00253,Barbara Martin,Consumer,Miami,Florida,United States,South,33101
+CS-00254,Patricia Davis,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00255,Susan Taylor,Consumer,New York City,New York,United States,East,10001
+CS-00256,Linda Wilson,Corporate,Nashville,Tennessee,United States,South,37201
+CS-00257,David Jackson,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00258,Jane Jones,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00259,Michael Miller,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00260,Christopher Garcia,Corporate,Dallas,Texas,United States,Central,75201
+CS-00261,Jessica Taylor,Home Office,Nashville,Tennessee,United States,South,37201
+CS-00262,John White,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00263,Charles Davis,Consumer,Buffalo,New York,United States,East,14201
+CS-00264,Joseph Brown,Consumer,Los Angeles,California,United States,West,90001
+CS-00265,Mary Miller,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00266,Christopher Anderson,Corporate,Los Angeles,California,United States,West,90001
+CS-00267,William Wilson,Corporate,Los Angeles,California,United States,West,90001
+CS-00268,Christopher Davis,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00269,Robert Taylor,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00270,Joseph Jackson,Corporate,Los Angeles,California,United States,West,90001
+CS-00271,Karen Garcia,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00272,David Davis,Home Office,Detroit,Michigan,United States,Central,48201
+CS-00273,John Williams,Consumer,New York City,New York,United States,East,10001
+CS-00274,Joseph Martin,Corporate,Los Angeles,California,United States,West,90001
+CS-00275,John Miller,Consumer,Miami,Florida,United States,South,33101
+CS-00276,Patricia Anderson,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00277,Joseph Taylor,Corporate,Miami,Florida,United States,South,33101
+CS-00278,Thomas Moore,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00279,Richard Jones,Home Office,Boston,Massachusetts,United States,East,02108
+CS-00280,Mary Williams,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00281,Christopher White,Consumer,New York City,New York,United States,East,10001
+CS-00282,Sarah Hernandez,Corporate,Buffalo,New York,United States,East,14201
+CS-00283,David Martin,Corporate,Portland,Oregon,United States,West,97201
+CS-00284,Susan Hernandez,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00285,John Williams,Consumer,New York City,New York,United States,East,10001
+CS-00286,Jessica Martinez,Consumer,Portland,Oregon,United States,West,97201
+CS-00287,Barbara Wilson,Home Office,Miami,Florida,United States,South,33101
+CS-00288,Jessica Garcia,Consumer,Seattle,Washington,United States,West,98101
+CS-00289,Patricia Anderson,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00290,Linda Brown,Consumer,Portland,Oregon,United States,West,97201
+CS-00291,Linda Jackson,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00292,Michael Rodriguez,Consumer,San Francisco,California,United States,West,94102
+CS-00293,Mary Martin,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00294,David Smith,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00295,Karen Taylor,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00296,Jessica Taylor,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00297,Susan Williams,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00298,Patricia Jackson,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00299,Christopher Jones,Corporate,Houston,Texas,United States,Central,77001
+CS-00300,Thomas Johnson,Corporate,Boston,Massachusetts,United States,East,02108
+CS-00301,Elizabeth Jackson,Consumer,Miami,Florida,United States,South,33101
+CS-00302,Joseph Jones,Consumer,San Francisco,California,United States,West,94102
+CS-00303,John Smith,Corporate,Portland,Oregon,United States,West,97201
+CS-00304,Sarah Hernandez,Home Office,Los Angeles,California,United States,West,90001
+CS-00305,Charles Martinez,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00306,Charles Taylor,Corporate,San Francisco,California,United States,West,94102
+CS-00307,John Johnson,Corporate,Boston,Massachusetts,United States,East,02108
+CS-00308,David Williams,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00309,John Moore,Consumer,Miami,Florida,United States,South,33101
+CS-00310,Patricia Martin,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00311,Michael Jones,Home Office,Boston,Massachusetts,United States,East,02108
+CS-00312,Patricia Williams,Consumer,Seattle,Washington,United States,West,98101
+CS-00313,Michael Jones,Corporate,Seattle,Washington,United States,West,98101
+CS-00314,Elizabeth Wilson,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00315,Christopher Martin,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00316,Susan Rodriguez,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00317,Susan Smith,Consumer,San Francisco,California,United States,West,94102
+CS-00318,Christopher Taylor,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00319,Joseph Brown,Consumer,Miami,Florida,United States,South,33101
+CS-00320,John Martin,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00321,Linda Johnson,Corporate,San Francisco,California,United States,West,94102
+CS-00322,Linda Davis,Home Office,Detroit,Michigan,United States,Central,48201
+CS-00323,Jane Williams,Consumer,Buffalo,New York,United States,East,14201
+CS-00324,Sarah Anderson,Consumer,Portland,Oregon,United States,West,97201
+CS-00325,John Anderson,Consumer,Buffalo,New York,United States,East,14201
+CS-00326,Michael Martin,Home Office,Dallas,Texas,United States,Central,75201
+CS-00327,Jessica Hernandez,Home Office,Seattle,Washington,United States,West,98101
+CS-00328,Thomas Jones,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00329,Susan Johnson,Home Office,New York City,New York,United States,East,10001
+CS-00330,Richard Thompson,Corporate,Portland,Oregon,United States,West,97201
+CS-00331,William Miller,Corporate,Seattle,Washington,United States,West,98101
+CS-00332,Jane Miller,Consumer,San Francisco,California,United States,West,94102
+CS-00333,Sarah Johnson,Corporate,San Francisco,California,United States,West,94102
+CS-00334,Sarah Hernandez,Consumer,San Francisco,California,United States,West,94102
+CS-00335,Christopher Johnson,Home Office,Chicago,Illinois,United States,Central,60601
+CS-00336,Karen Miller,Corporate,Buffalo,New York,United States,East,14201
+CS-00337,John Hernandez,Corporate,New York City,New York,United States,East,10001
+CS-00338,Elizabeth Thompson,Consumer,Miami,Florida,United States,South,33101
+CS-00339,Charles Jones,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00340,Mary Wilson,Consumer,San Francisco,California,United States,West,94102
+CS-00341,Charles Wilson,Consumer,Houston,Texas,United States,Central,77001
+CS-00342,Charles White,Consumer,Dallas,Texas,United States,Central,75201
+CS-00343,Michael Johnson,Home Office,Portland,Oregon,United States,West,97201
+CS-00344,Patricia Johnson,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00345,Joseph Martinez,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00346,Richard Moore,Consumer,Houston,Texas,United States,Central,77001
+CS-00347,Richard Thompson,Consumer,New York City,New York,United States,East,10001
+CS-00348,Thomas Moore,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00349,Richard Moore,Corporate,Miami,Florida,United States,South,33101
+CS-00350,Linda Brown,Home Office,Miami,Florida,United States,South,33101
+CS-00351,Linda Brown,Consumer,New York City,New York,United States,East,10001
+CS-00352,Robert Williams,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00353,Sarah Thompson,Home Office,Portland,Oregon,United States,West,97201
+CS-00354,Christopher Jones,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00355,Sarah Wilson,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00356,Patricia Smith,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00357,Michael Rodriguez,Home Office,Miami,Florida,United States,South,33101
+CS-00358,Barbara Thomas,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00359,Jane Martin,Home Office,Portland,Oregon,United States,West,97201
+CS-00360,Susan Taylor,Home Office,New York City,New York,United States,East,10001
+CS-00361,David Hernandez,Home Office,Miami,Florida,United States,South,33101
+CS-00362,Thomas Martinez,Corporate,Miami,Florida,United States,South,33101
+CS-00363,Jessica Martin,Consumer,San Francisco,California,United States,West,94102
+CS-00364,Mary Smith,Consumer,New York City,New York,United States,East,10001
+CS-00365,Linda Martin,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00366,Robert White,Consumer,New York City,New York,United States,East,10001
+CS-00367,Thomas Hernandez,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00368,Susan Thomas,Consumer,Portland,Oregon,United States,West,97201
+CS-00369,Jane Taylor,Home Office,Dallas,Texas,United States,Central,75201
+CS-00370,Susan Thompson,Corporate,Boston,Massachusetts,United States,East,02108
+CS-00371,William Williams,Home Office,Detroit,Michigan,United States,Central,48201
+CS-00372,Thomas Thomas,Consumer,New York City,New York,United States,East,10001
+CS-00373,Richard Hernandez,Home Office,Houston,Texas,United States,Central,77001
+CS-00374,Joseph Jackson,Home Office,Seattle,Washington,United States,West,98101
+CS-00375,Patricia Williams,Consumer,Los Angeles,California,United States,West,90001
+CS-00376,Christopher Hernandez,Corporate,Los Angeles,California,United States,West,90001
+CS-00377,Michael Wilson,Corporate,New York City,New York,United States,East,10001
+CS-00378,William Martin,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00379,William Anderson,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00380,Charles Taylor,Consumer,Houston,Texas,United States,Central,77001
+CS-00381,Karen Brown,Consumer,Dallas,Texas,United States,Central,75201
+CS-00382,Elizabeth Williams,Consumer,San Francisco,California,United States,West,94102
+CS-00383,David Taylor,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00384,Sarah Hernandez,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00385,Mary Hernandez,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00386,Jane Hernandez,Home Office,Portland,Oregon,United States,West,97201
+CS-00387,Linda Garcia,Corporate,Los Angeles,California,United States,West,90001
+CS-00388,Charles Anderson,Home Office,New York City,New York,United States,East,10001
+CS-00389,Christopher Wilson,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00390,David Jones,Consumer,New York City,New York,United States,East,10001
+CS-00391,Patricia White,Corporate,Portland,Oregon,United States,West,97201
+CS-00392,Jane Taylor,Consumer,Los Angeles,California,United States,West,90001
+CS-00393,Patricia Jones,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00394,John Miller,Corporate,Dallas,Texas,United States,Central,75201
+CS-00395,Patricia Moore,Consumer,Seattle,Washington,United States,West,98101
+CS-00396,Mary Martinez,Corporate,Seattle,Washington,United States,West,98101
+CS-00397,David Williams,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00398,Christopher Garcia,Consumer,Seattle,Washington,United States,West,98101
+CS-00399,Michael Brown,Consumer,Miami,Florida,United States,South,33101
+CS-00400,Patricia Johnson,Corporate,Nashville,Tennessee,United States,South,37201
+CS-00401,Karen Martinez,Consumer,Dallas,Texas,United States,Central,75201
+CS-00402,Mary Hernandez,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00403,Patricia Martin,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00404,Patricia Thompson,Consumer,Dallas,Texas,United States,Central,75201
+CS-00405,Jane Hernandez,Corporate,Miami,Florida,United States,South,33101
+CS-00406,Richard Garcia,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00407,Christopher Taylor,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00408,Barbara Jones,Consumer,Miami,Florida,United States,South,33101
+CS-00409,Patricia Brown,Consumer,New York City,New York,United States,East,10001
+CS-00410,Christopher White,Consumer,Portland,Oregon,United States,West,97201
+CS-00411,John White,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00412,Charles Anderson,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00413,Thomas Smith,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00414,Susan Miller,Corporate,Portland,Oregon,United States,West,97201
+CS-00415,Michael Martinez,Home Office,Portland,Oregon,United States,West,97201
+CS-00416,Mary Taylor,Home Office,Miami,Florida,United States,South,33101
+CS-00417,Richard Williams,Corporate,Los Angeles,California,United States,West,90001
+CS-00418,John Miller,Consumer,Miami,Florida,United States,South,33101
+CS-00419,Sarah Wilson,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00420,Michael Wilson,Corporate,Miami,Florida,United States,South,33101
+CS-00421,Barbara Johnson,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00422,Joseph Garcia,Consumer,New York City,New York,United States,East,10001
+CS-00423,Jane White,Home Office,Miami,Florida,United States,South,33101
+CS-00424,John Jones,Consumer,Houston,Texas,United States,Central,77001
+CS-00425,David Martin,Consumer,Seattle,Washington,United States,West,98101
+CS-00426,David Martinez,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00427,Thomas Miller,Consumer,Houston,Texas,United States,Central,77001
+CS-00428,Robert Martin,Home Office,Los Angeles,California,United States,West,90001
+CS-00429,Michael Anderson,Corporate,Portland,Oregon,United States,West,97201
+CS-00430,Sarah Thomas,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00431,Richard Rodriguez,Consumer,Dallas,Texas,United States,Central,75201
+CS-00432,Jane Anderson,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00433,Robert Williams,Consumer,Seattle,Washington,United States,West,98101
+CS-00434,John Garcia,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00435,Linda Martinez,Consumer,Miami,Florida,United States,South,33101
+CS-00436,David Jones,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00437,Susan Williams,Consumer,Seattle,Washington,United States,West,98101
+CS-00438,Michael Jones,Corporate,New York City,New York,United States,East,10001
+CS-00439,Christopher Thomas,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00440,Mary Taylor,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00441,Elizabeth Jackson,Consumer,Buffalo,New York,United States,East,14201
+CS-00442,Linda Garcia,Home Office,Buffalo,New York,United States,East,14201
+CS-00443,William Garcia,Home Office,Buffalo,New York,United States,East,14201
+CS-00444,Susan Thompson,Home Office,Boston,Massachusetts,United States,East,02108
+CS-00445,Patricia Smith,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00446,Thomas Smith,Consumer,New York City,New York,United States,East,10001
+CS-00447,Charles Smith,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00448,Thomas Johnson,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00449,Susan Garcia,Home Office,Buffalo,New York,United States,East,14201
+CS-00450,Linda Thompson,Consumer,Los Angeles,California,United States,West,90001
+CS-00451,William Thompson,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00452,Patricia Miller,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00453,Robert Davis,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00454,Christopher Garcia,Corporate,Portland,Oregon,United States,West,97201
+CS-00455,Elizabeth White,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00456,Thomas Hernandez,Consumer,New York City,New York,United States,East,10001
+CS-00457,John White,Consumer,New York City,New York,United States,East,10001
+CS-00458,William Brown,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00459,Patricia Smith,Corporate,Houston,Texas,United States,Central,77001
+CS-00460,Michael Smith,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00461,Mary Johnson,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00462,Elizabeth Jones,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00463,Elizabeth Smith,Consumer,Seattle,Washington,United States,West,98101
+CS-00464,Patricia Taylor,Corporate,Buffalo,New York,United States,East,14201
+CS-00465,Thomas Brown,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00466,Joseph White,Consumer,Miami,Florida,United States,South,33101
+CS-00467,Thomas Garcia,Home Office,Chicago,Illinois,United States,Central,60601
+CS-00468,Michael Hernandez,Consumer,Houston,Texas,United States,Central,77001
+CS-00469,Mary Anderson,Home Office,Buffalo,New York,United States,East,14201
+CS-00470,Joseph Johnson,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00471,Christopher Thompson,Corporate,Dallas,Texas,United States,Central,75201
+CS-00472,Mary Brown,Corporate,Miami,Florida,United States,South,33101
+CS-00473,Richard Jones,Home Office,Houston,Texas,United States,Central,77001
+CS-00474,Karen Martinez,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00475,Elizabeth Garcia,Corporate,Buffalo,New York,United States,East,14201
+CS-00476,Patricia Miller,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00477,Linda Hernandez,Corporate,San Francisco,California,United States,West,94102
+CS-00478,Susan Martinez,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00479,Barbara Taylor,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00480,Linda Jackson,Corporate,Seattle,Washington,United States,West,98101
+CS-00481,John Hernandez,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00482,Linda Martinez,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00483,Barbara Anderson,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00484,Mary Moore,Corporate,San Francisco,California,United States,West,94102
+CS-00485,Mary Jones,Consumer,Dallas,Texas,United States,Central,75201
+CS-00486,Michael Garcia,Consumer,Los Angeles,California,United States,West,90001
+CS-00487,Elizabeth Martin,Consumer,Buffalo,New York,United States,East,14201
+CS-00488,David Thompson,Home Office,Miami,Florida,United States,South,33101
+CS-00489,Susan Garcia,Corporate,San Francisco,California,United States,West,94102
+CS-00490,David Martinez,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00491,John Thomas,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00492,Michael Thomas,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00493,Mary Smith,Corporate,Portland,Oregon,United States,West,97201
+CS-00494,Christopher Garcia,Corporate,Buffalo,New York,United States,East,14201
+CS-00495,Thomas Hernandez,Consumer,New York City,New York,United States,East,10001
+CS-00496,David Rodriguez,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00497,Elizabeth White,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00498,David Williams,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00499,Karen Martinez,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00500,Patricia Johnson,Consumer,Dallas,Texas,United States,Central,75201
+CS-00501,William Jackson,Consumer,New York City,New York,United States,East,10001
+CS-00502,Jane Martin,Consumer,Seattle,Washington,United States,West,98101
+CS-00503,Richard Anderson,Home Office,Miami,Florida,United States,South,33101
+CS-00504,Christopher Davis,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00505,Karen Miller,Corporate,Houston,Texas,United States,Central,77001
+CS-00506,John Martin,Corporate,Los Angeles,California,United States,West,90001
+CS-00507,Richard Jackson,Consumer,Los Angeles,California,United States,West,90001
+CS-00508,Charles Davis,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00509,Charles White,Consumer,New York City,New York,United States,East,10001
+CS-00510,David Martin,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00511,Karen Garcia,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00512,Charles Davis,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00513,John Taylor,Corporate,Seattle,Washington,United States,West,98101
+CS-00514,Christopher Thompson,Consumer,Portland,Oregon,United States,West,97201
+CS-00515,Charles Taylor,Home Office,Chicago,Illinois,United States,Central,60601
+CS-00516,Jessica Garcia,Corporate,San Francisco,California,United States,West,94102
+CS-00517,Christopher Jackson,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00518,John Thomas,Home Office,Los Angeles,California,United States,West,90001
+CS-00519,Christopher Hernandez,Corporate,San Francisco,California,United States,West,94102
+CS-00520,Sarah Johnson,Corporate,Dallas,Texas,United States,Central,75201
+CS-00521,Charles Jackson,Corporate,Buffalo,New York,United States,East,14201
+CS-00522,Patricia Thompson,Home Office,Boston,Massachusetts,United States,East,02108
+CS-00523,Mary Smith,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00524,Linda Davis,Consumer,Miami,Florida,United States,South,33101
+CS-00525,Robert Wilson,Consumer,Seattle,Washington,United States,West,98101
+CS-00526,Elizabeth Thompson,Home Office,Chicago,Illinois,United States,Central,60601
+CS-00527,Susan Johnson,Consumer,Los Angeles,California,United States,West,90001
+CS-00528,John Jackson,Consumer,San Francisco,California,United States,West,94102
+CS-00529,William Garcia,Consumer,Houston,Texas,United States,Central,77001
+CS-00530,John Williams,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00531,Linda Hernandez,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00532,Michael Williams,Home Office,Detroit,Michigan,United States,Central,48201
+CS-00533,Christopher Smith,Consumer,Buffalo,New York,United States,East,14201
+CS-00534,Thomas Garcia,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00535,Jane Williams,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00536,Susan Thomas,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00537,Richard Moore,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00538,Mary White,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00539,Michael Thomas,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00540,Jessica Jackson,Home Office,Chicago,Illinois,United States,Central,60601
+CS-00541,William Wilson,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00542,William Smith,Home Office,Seattle,Washington,United States,West,98101
+CS-00543,Christopher Moore,Consumer,Portland,Oregon,United States,West,97201
+CS-00544,Christopher Brown,Corporate,Dallas,Texas,United States,Central,75201
+CS-00545,Sarah Johnson,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00546,John Hernandez,Home Office,Nashville,Tennessee,United States,South,37201
+CS-00547,Michael White,Corporate,Houston,Texas,United States,Central,77001
+CS-00548,Richard Wilson,Corporate,Dallas,Texas,United States,Central,75201
+CS-00549,Jane Williams,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00550,Barbara White,Consumer,San Francisco,California,United States,West,94102
+CS-00551,Michael Jones,Corporate,Boston,Massachusetts,United States,East,02108
+CS-00552,Patricia Rodriguez,Home Office,Detroit,Michigan,United States,Central,48201
+CS-00553,Jane Anderson,Home Office,New York City,New York,United States,East,10001
+CS-00554,Robert White,Consumer,Portland,Oregon,United States,West,97201
+CS-00555,Barbara Martin,Consumer,Seattle,Washington,United States,West,98101
+CS-00556,Elizabeth Thomas,Consumer,Buffalo,New York,United States,East,14201
+CS-00557,Charles Jackson,Corporate,Portland,Oregon,United States,West,97201
+CS-00558,Christopher Martin,Home Office,Detroit,Michigan,United States,Central,48201
+CS-00559,Susan Rodriguez,Consumer,Los Angeles,California,United States,West,90001
+CS-00560,Linda Johnson,Corporate,Seattle,Washington,United States,West,98101
+CS-00561,Joseph Davis,Home Office,Boston,Massachusetts,United States,East,02108
+CS-00562,David Martinez,Corporate,Los Angeles,California,United States,West,90001
+CS-00563,Susan Brown,Corporate,Portland,Oregon,United States,West,97201
+CS-00564,Joseph Johnson,Corporate,New York City,New York,United States,East,10001
+CS-00565,Michael Martinez,Corporate,New York City,New York,United States,East,10001
+CS-00566,Patricia Jackson,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00567,Elizabeth Brown,Corporate,Boston,Massachusetts,United States,East,02108
+CS-00568,David Miller,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00569,Jane Martin,Home Office,Miami,Florida,United States,South,33101
+CS-00570,Michael Miller,Corporate,Houston,Texas,United States,Central,77001
+CS-00571,Barbara Wilson,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00572,Patricia Garcia,Consumer,Buffalo,New York,United States,East,14201
+CS-00573,Jane Anderson,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00574,Joseph Davis,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00575,Elizabeth Taylor,Consumer,Dallas,Texas,United States,Central,75201
+CS-00576,Charles Thomas,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00577,Jane Martinez,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00578,John Thompson,Consumer,Dallas,Texas,United States,Central,75201
+CS-00579,Mary Thompson,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00580,Richard Garcia,Home Office,Dallas,Texas,United States,Central,75201
+CS-00581,Richard Brown,Consumer,New York City,New York,United States,East,10001
+CS-00582,Charles Davis,Corporate,New York City,New York,United States,East,10001
+CS-00583,Linda Williams,Corporate,San Francisco,California,United States,West,94102
+CS-00584,Jane Hernandez,Corporate,Nashville,Tennessee,United States,South,37201
+CS-00585,Michael Smith,Consumer,Los Angeles,California,United States,West,90001
+CS-00586,Mary Hernandez,Consumer,Portland,Oregon,United States,West,97201
+CS-00587,Karen Thompson,Corporate,Buffalo,New York,United States,East,14201
+CS-00588,Robert White,Corporate,Nashville,Tennessee,United States,South,37201
+CS-00589,Richard Martin,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00590,Joseph Martinez,Corporate,Portland,Oregon,United States,West,97201
+CS-00591,Jane Rodriguez,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00592,Jane Rodriguez,Corporate,San Francisco,California,United States,West,94102
+CS-00593,David Garcia,Consumer,New York City,New York,United States,East,10001
+CS-00594,Charles Smith,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00595,Richard Garcia,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00596,Elizabeth Davis,Consumer,New York City,New York,United States,East,10001
+CS-00597,Robert Williams,Consumer,Miami,Florida,United States,South,33101
+CS-00598,Sarah Jones,Consumer,Buffalo,New York,United States,East,14201
+CS-00599,Barbara Anderson,Home Office,Los Angeles,California,United States,West,90001
+CS-00600,Christopher Miller,Home Office,Atlanta,Georgia,United States,South,30301
+CS-00601,Jane Anderson,Consumer,Portland,Oregon,United States,West,97201
+CS-00602,Christopher Jones,Consumer,Portland,Oregon,United States,West,97201
+CS-00603,Barbara Martin,Corporate,Dallas,Texas,United States,Central,75201
+CS-00604,Charles Wilson,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00605,Charles Hernandez,Corporate,Dallas,Texas,United States,Central,75201
+CS-00606,Barbara Moore,Consumer,Miami,Florida,United States,South,33101
+CS-00607,Christopher Garcia,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00608,Charles Jones,Corporate,Houston,Texas,United States,Central,77001
+CS-00609,Jessica Miller,Consumer,Dallas,Texas,United States,Central,75201
+CS-00610,Linda Jackson,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00611,Barbara Hernandez,Consumer,San Francisco,California,United States,West,94102
+CS-00612,David Taylor,Corporate,Dallas,Texas,United States,Central,75201
+CS-00613,Thomas Wilson,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00614,Jessica Davis,Corporate,Dallas,Texas,United States,Central,75201
+CS-00615,Charles Davis,Consumer,Houston,Texas,United States,Central,77001
+CS-00616,Susan Hernandez,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00617,William Rodriguez,Consumer,Buffalo,New York,United States,East,14201
+CS-00618,Christopher Moore,Corporate,San Francisco,California,United States,West,94102
+CS-00619,Linda Jackson,Corporate,Dallas,Texas,United States,Central,75201
+CS-00620,Sarah White,Corporate,Miami,Florida,United States,South,33101
+CS-00621,William Williams,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00622,Sarah Wilson,Corporate,Los Angeles,California,United States,West,90001
+CS-00623,William Martin,Home Office,Atlanta,Georgia,United States,South,30301
+CS-00624,Susan Williams,Consumer,Houston,Texas,United States,Central,77001
+CS-00625,Barbara Taylor,Home Office,Los Angeles,California,United States,West,90001
+CS-00626,Jane Williams,Consumer,Houston,Texas,United States,Central,77001
+CS-00627,Michael Martinez,Consumer,Miami,Florida,United States,South,33101
+CS-00628,Linda Anderson,Consumer,Los Angeles,California,United States,West,90001
+CS-00629,William Hernandez,Consumer,Houston,Texas,United States,Central,77001
+CS-00630,Charles Brown,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00631,Joseph Jackson,Corporate,Los Angeles,California,United States,West,90001
+CS-00632,John Moore,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00633,Joseph Wilson,Corporate,Seattle,Washington,United States,West,98101
+CS-00634,Barbara Johnson,Consumer,San Francisco,California,United States,West,94102
+CS-00635,Robert Wilson,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00636,Jane Taylor,Consumer,Buffalo,New York,United States,East,14201
+CS-00637,Joseph Jackson,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00638,Robert Davis,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00639,Susan White,Consumer,New York City,New York,United States,East,10001
+CS-00640,Charles Anderson,Corporate,Miami,Florida,United States,South,33101
+CS-00641,Jessica Anderson,Corporate,Miami,Florida,United States,South,33101
+CS-00642,Thomas Wilson,Home Office,Dallas,Texas,United States,Central,75201
+CS-00643,William White,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00644,Michael Smith,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00645,Charles Williams,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00646,Joseph Thomas,Corporate,New York City,New York,United States,East,10001
+CS-00647,Sarah Brown,Corporate,Miami,Florida,United States,South,33101
+CS-00648,Sarah Jones,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00649,Jessica Smith,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00650,Susan Hernandez,Home Office,San Francisco,California,United States,West,94102
+CS-00651,David Hernandez,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00652,Charles Brown,Corporate,Los Angeles,California,United States,West,90001
+CS-00653,Barbara Jones,Corporate,Los Angeles,California,United States,West,90001
+CS-00654,Michael Martinez,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00655,Patricia Davis,Consumer,New York City,New York,United States,East,10001
+CS-00656,Susan Martinez,Consumer,Miami,Florida,United States,South,33101
+CS-00657,Joseph Johnson,Consumer,Buffalo,New York,United States,East,14201
+CS-00658,William White,Consumer,Miami,Florida,United States,South,33101
+CS-00659,Mary Garcia,Home Office,San Francisco,California,United States,West,94102
+CS-00660,Karen Thompson,Consumer,Los Angeles,California,United States,West,90001
+CS-00661,Joseph Thomas,Corporate,Dallas,Texas,United States,Central,75201
+CS-00662,Elizabeth Martinez,Consumer,Seattle,Washington,United States,West,98101
+CS-00663,Jane Rodriguez,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00664,Charles Williams,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00665,Patricia Jones,Consumer,Houston,Texas,United States,Central,77001
+CS-00666,Michael Hernandez,Home Office,Buffalo,New York,United States,East,14201
+CS-00667,Charles Rodriguez,Home Office,Nashville,Tennessee,United States,South,37201
+CS-00668,Robert White,Consumer,Miami,Florida,United States,South,33101
+CS-00669,Charles Wilson,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00670,Robert Jackson,Consumer,Houston,Texas,United States,Central,77001
+CS-00671,Sarah Martin,Consumer,New York City,New York,United States,East,10001
+CS-00672,Robert Williams,Consumer,Los Angeles,California,United States,West,90001
+CS-00673,Patricia Taylor,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00674,Thomas Rodriguez,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00675,Mary Thomas,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00676,Michael Johnson,Consumer,Los Angeles,California,United States,West,90001
+CS-00677,Richard Rodriguez,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00678,Robert Rodriguez,Corporate,Dallas,Texas,United States,Central,75201
+CS-00679,Robert Johnson,Consumer,Seattle,Washington,United States,West,98101
+CS-00680,Barbara Wilson,Corporate,Boston,Massachusetts,United States,East,02108
+CS-00681,David Hernandez,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00682,Linda Jones,Corporate,New York City,New York,United States,East,10001
+CS-00683,Richard Johnson,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00684,Thomas Miller,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00685,Linda Jones,Consumer,Portland,Oregon,United States,West,97201
+CS-00686,Jessica Jackson,Consumer,Miami,Florida,United States,South,33101
+CS-00687,Patricia Jones,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00688,Jessica Taylor,Consumer,Miami,Florida,United States,South,33101
+CS-00689,Michael Taylor,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00690,Charles Jackson,Home Office,Buffalo,New York,United States,East,14201
+CS-00691,Linda Taylor,Consumer,Dallas,Texas,United States,Central,75201
+CS-00692,Christopher Williams,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00693,Linda Johnson,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00694,Linda Taylor,Consumer,Miami,Florida,United States,South,33101
+CS-00695,Joseph Smith,Corporate,New York City,New York,United States,East,10001
+CS-00696,Patricia Thompson,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00697,Jessica Garcia,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00698,John Moore,Consumer,Buffalo,New York,United States,East,14201
+CS-00699,David Taylor,Consumer,Portland,Oregon,United States,West,97201
+CS-00700,Richard Taylor,Home Office,San Francisco,California,United States,West,94102
+CS-00701,Elizabeth Brown,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00702,Patricia Davis,Corporate,Portland,Oregon,United States,West,97201
+CS-00703,Michael Martinez,Consumer,Houston,Texas,United States,Central,77001
+CS-00704,Joseph Thompson,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00705,Elizabeth Wilson,Home Office,Los Angeles,California,United States,West,90001
+CS-00706,Richard Davis,Consumer,Seattle,Washington,United States,West,98101
+CS-00707,Sarah Brown,Corporate,Los Angeles,California,United States,West,90001
+CS-00708,Jane Thomas,Home Office,Portland,Oregon,United States,West,97201
+CS-00709,Joseph Anderson,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00710,William Johnson,Home Office,Los Angeles,California,United States,West,90001
+CS-00711,Joseph Thomas,Consumer,New York City,New York,United States,East,10001
+CS-00712,Charles Rodriguez,Consumer,Los Angeles,California,United States,West,90001
+CS-00713,Charles Garcia,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00714,Jane Taylor,Corporate,San Francisco,California,United States,West,94102
+CS-00715,Robert Moore,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00716,Patricia Thompson,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00717,William Wilson,Corporate,Nashville,Tennessee,United States,South,37201
+CS-00718,David Johnson,Consumer,Dallas,Texas,United States,Central,75201
+CS-00719,Thomas Jones,Corporate,Los Angeles,California,United States,West,90001
+CS-00720,Mary White,Consumer,Buffalo,New York,United States,East,14201
+CS-00721,Mary Jackson,Home Office,Dallas,Texas,United States,Central,75201
+CS-00722,Mary Martin,Corporate,San Francisco,California,United States,West,94102
+CS-00723,Barbara Martin,Consumer,Miami,Florida,United States,South,33101
+CS-00724,Elizabeth Smith,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00725,Sarah Jackson,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00726,Susan Hernandez,Consumer,San Francisco,California,United States,West,94102
+CS-00727,Barbara Brown,Consumer,Los Angeles,California,United States,West,90001
+CS-00728,Robert White,Home Office,San Francisco,California,United States,West,94102
+CS-00729,Barbara Davis,Corporate,Dallas,Texas,United States,Central,75201
+CS-00730,Richard Smith,Corporate,Seattle,Washington,United States,West,98101
+CS-00731,Patricia Hernandez,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00732,Thomas Thompson,Home Office,Los Angeles,California,United States,West,90001
+CS-00733,Richard Johnson,Corporate,New York City,New York,United States,East,10001
+CS-00734,Susan Johnson,Consumer,Portland,Oregon,United States,West,97201
+CS-00735,Mary Martin,Corporate,Boston,Massachusetts,United States,East,02108
+CS-00736,Robert Taylor,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00737,David Davis,Consumer,Atlanta,Georgia,United States,South,30301
+CS-00738,Thomas Martinez,Consumer,Houston,Texas,United States,Central,77001
+CS-00739,Karen Johnson,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00740,Thomas Thomas,Consumer,San Francisco,California,United States,West,94102
+CS-00741,Karen Martinez,Home Office,New York City,New York,United States,East,10001
+CS-00742,Robert Martin,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00743,Barbara Hernandez,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00744,Jessica Jones,Consumer,Houston,Texas,United States,Central,77001
+CS-00745,Karen Miller,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00746,Christopher Jones,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00747,Robert Smith,Corporate,Detroit,Michigan,United States,Central,48201
+CS-00748,Patricia Hernandez,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00749,Jane Williams,Corporate,Nashville,Tennessee,United States,South,37201
+CS-00750,Charles Anderson,Home Office,San Francisco,California,United States,West,94102
+CS-00751,Sarah Hernandez,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00752,Barbara Moore,Consumer,Seattle,Washington,United States,West,98101
+CS-00753,Linda Thomas,Corporate,Houston,Texas,United States,Central,77001
+CS-00754,Charles Garcia,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00755,Thomas Thomas,Consumer,San Francisco,California,United States,West,94102
+CS-00756,Sarah White,Consumer,Dallas,Texas,United States,Central,75201
+CS-00757,William Williams,Consumer,New York City,New York,United States,East,10001
+CS-00758,Barbara Williams,Corporate,Atlanta,Georgia,United States,South,30301
+CS-00759,Karen Thomas,Corporate,Portland,Oregon,United States,West,97201
+CS-00760,Thomas Thomas,Consumer,Seattle,Washington,United States,West,98101
+CS-00761,William Martin,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00762,Barbara White,Home Office,Dallas,Texas,United States,Central,75201
+CS-00763,Mary Rodriguez,Home Office,Dallas,Texas,United States,Central,75201
+CS-00764,Patricia Moore,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00765,Jane Garcia,Consumer,Chicago,Illinois,United States,Central,60601
+CS-00766,Richard Taylor,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00767,Charles Garcia,Corporate,Buffalo,New York,United States,East,14201
+CS-00768,Sarah Jackson,Consumer,New York City,New York,United States,East,10001
+CS-00769,Susan Hernandez,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00770,Patricia Martinez,Consumer,Los Angeles,California,United States,West,90001
+CS-00771,Joseph Smith,Home Office,Atlanta,Georgia,United States,South,30301
+CS-00772,Patricia Rodriguez,Corporate,Dallas,Texas,United States,Central,75201
+CS-00773,Linda Martinez,Consumer,Buffalo,New York,United States,East,14201
+CS-00774,Christopher Rodriguez,Consumer,Detroit,Michigan,United States,Central,48201
+CS-00775,Charles Anderson,Corporate,Philadelphia,Pennsylvania,United States,East,19104
+CS-00776,Susan Hernandez,Home Office,Charlotte,North Carolina,United States,South,28201
+CS-00777,Jessica White,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00778,John Wilson,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00779,Linda Jackson,Home Office,Boston,Massachusetts,United States,East,02108
+CS-00780,John Johnson,Consumer,Seattle,Washington,United States,West,98101
+CS-00781,John Smith,Corporate,Miami,Florida,United States,South,33101
+CS-00782,David Taylor,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00783,John Taylor,Corporate,Nashville,Tennessee,United States,South,37201
+CS-00784,Karen Davis,Corporate,Charlotte,North Carolina,United States,South,28201
+CS-00785,Jane Miller,Corporate,Chicago,Illinois,United States,Central,60601
+CS-00786,William Thomas,Corporate,Portland,Oregon,United States,West,97201
+CS-00787,Sarah Hernandez,Consumer,Boston,Massachusetts,United States,East,02108
+CS-00788,Jane Wilson,Home Office,Miami,Florida,United States,South,33101
+CS-00789,Barbara Martin,Corporate,New York City,New York,United States,East,10001
+CS-00790,Linda Martinez,Consumer,New York City,New York,United States,East,10001
+CS-00791,Robert Miller,Corporate,New York City,New York,United States,East,10001
+CS-00792,David Miller,Corporate,New York City,New York,United States,East,10001
+CS-00793,David Davis,Consumer,Nashville,Tennessee,United States,South,37201
+CS-00794,David Jackson,Home Office,Portland,Oregon,United States,West,97201
+CS-00795,Barbara Garcia,Home Office,Philadelphia,Pennsylvania,United States,East,19104
+CS-00796,Linda Jackson,Consumer,Charlotte,North Carolina,United States,South,28201
+CS-00797,Karen Hernandez,Home Office,San Francisco,California,United States,West,94102
+CS-00798,William Martinez,Consumer,Philadelphia,Pennsylvania,United States,East,19104
+CS-00799,Karen Moore,Consumer,Dallas,Texas,United States,Central,75201
+CS-00800,Mary Miller,Consumer,Los Angeles,California,United States,West,90001
