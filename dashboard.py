@@ -6,7 +6,7 @@ import os
 
 # Set page config
 st.set_page_config(
-    page_title="E-Commerce Sales Intelligence Cockpit",
+    page_title="E-Commerce Sales Intelligence Dashboard",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="collapsed"
