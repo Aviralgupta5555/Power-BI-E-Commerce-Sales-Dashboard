@@ -42,7 +42,7 @@ Before you start, make sure you have the following ready:
 
 ### 🏠 Executive Dashboard Overview
 
-<img src="images/s1.png" width="800">
+<img src="images/s1.png" width="600">
 
 ### 📦 Product & Regional Performance Analysis
 <img src="images/s2.png" width="800">
