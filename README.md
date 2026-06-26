@@ -2,22 +2,7 @@
 
 > A complete, step-by-step walkthrough for building a professional, high-performance **E-Commerce Sales Dashboard** in Microsoft Power BI Desktop — from raw CSVs to a polished, interactive report.
 
-![Power BI](https://img.shields.io/badge/tool-Power%20BI%20Desktop-F2C811?logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/language-DAX-yellow)
-![Status](https://img.shields.io/badge/status-ready%20to%20build-brightgreen)
-
 ---
-
-## 📋 Table of Contents
-
-1. [Prerequisites & How to Run](#-prerequisites--how-to-run)
-2. [Importing the Datasets](#1-importing-the-datasets)
-3. [Setting Up the Data Model (Star Schema)](#2-setting-up-the-data-model-star-schema)
-4. [Writing DAX Measures](#3-writing-dax-measures)
-5. [Dashboard Design & Visual Layout](#4-dashboard-design--visual-layout)
-6. [Publishing & Sharing](#5-publishing--sharing)
-7. [Troubleshooting](#-troubleshooting)
-8. [Checklist](#-final-checklist)
 
 ---
 
@@ -52,6 +37,20 @@ Before you start, make sure you have the following ready:
 > 💡 **Tip:** Keep this guide open side-by-side with Power BI Desktop — most steps map directly to ribbon buttons or right-click menus.
 
 ---
+
+## 📸 Screenshots
+
+### 🏠 Executive Dashboard Overview
+
+<img src="images/s1.png" width="800">
+
+### 📦 Product & Regional Performance Analysis
+<img src="images/s2.png" width="800">
+
+### 📅 Revenue Trends & Customer Segment Analysis
+
+<img src="images/s3.png" width="800">
+
 
 ## 1. Importing the Datasets
 
