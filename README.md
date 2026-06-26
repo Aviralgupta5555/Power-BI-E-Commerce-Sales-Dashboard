@@ -1,50 +1,106 @@
-# Power BI E-Commerce Sales Dashboard Implementation Guide
+# 📊 Power BI E-Commerce Sales Dashboard — Implementation Guide
 
-This guide details how to build a professional, high-performance E-Commerce Sales Dashboard using Microsoft Power BI Desktop and the generated datasets.
+> A complete, step-by-step walkthrough for building a professional, high-performance **E-Commerce Sales Dashboard** in Microsoft Power BI Desktop — from raw CSVs to a polished, interactive report.
+
+![Power BI](https://img.shields.io/badge/tool-Power%20BI%20Desktop-F2C811?logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/language-DAX-yellow)
+![Status](https://img.shields.io/badge/status-ready%20to%20build-brightgreen)
+
+---
+
+## 📋 Table of Contents
+
+1. [Prerequisites & How to Run](#-prerequisites--how-to-run)
+2. [Importing the Datasets](#1-importing-the-datasets)
+3. [Setting Up the Data Model (Star Schema)](#2-setting-up-the-data-model-star-schema)
+4. [Writing DAX Measures](#3-writing-dax-measures)
+5. [Dashboard Design & Visual Layout](#4-dashboard-design--visual-layout)
+6. [Publishing & Sharing](#5-publishing--sharing)
+7. [Troubleshooting](#-troubleshooting)
+8. [Checklist](#-final-checklist)
+
+---
+
+## 🚀 Prerequisites & How to Run
+
+Before you start, make sure you have the following ready:
+
+| Requirement | Details |
+|---|---|
+| **Power BI Desktop** | Free download from [powerbi.microsoft.com](https://powerbi.microsoft.com/desktop/) (Windows only) |
+| **Dataset files** | `Dim_Customers.csv`, `Dim_Products.csv`, `Fact_Orders.csv` placed in a local `data/` folder |
+| **Power BI account** *(optional)* | Required only if you plan to publish to the Power BI Service |
+| **Disk space** | ~200 MB free for Power BI Desktop + workspace cache |
+
+### ▶️ How to Run This Guide
+
+1. **Install Power BI Desktop** if you haven't already (search "Power BI Desktop" in the Microsoft Store, or download the `.exe` from Microsoft).
+2. **Create a project folder**, e.g.:
+   ```
+   ecommerce-dashboard/
+   ├── data/
+   │   ├── Dim_Customers.csv
+   │   ├── Dim_Products.csv
+   │   └── Fact_Orders.csv
+   └── EcommerceSalesDashboard.pbix   ← you'll create this
+   ```
+3. **Open Power BI Desktop** → it opens to a blank canvas automatically. No command line or build step is needed; everything below happens inside the Power BI Desktop UI.
+4. Follow **Sections 1–4** in order — each step builds on the last (data → model → measures → visuals).
+5. Save your file regularly with **Ctrl+S** as `.pbix`.
+6. When done, see [Section 5](#5-publishing--sharing) to share or export the finished dashboard.
+
+> 💡 **Tip:** Keep this guide open side-by-side with Power BI Desktop — most steps map directly to ribbon buttons or right-click menus.
 
 ---
 
 ## 1. Importing the Datasets
 
 1. Open **Power BI Desktop**.
-2. Click on **Get Data** -> **Text/CSV**.
+2. Click **Get Data** → **Text/CSV**.
 3. Import the three generated CSV files from your `data` folder:
    - `Dim_Customers.csv`
    - `Dim_Products.csv`
    - `Fact_Orders.csv`
 4. In the preview window, click **Transform Data** to open the **Power Query Editor**.
-5. **Verify and Adjust Data Types**:
-   - `Fact_Orders`:
-     - Ensure `Order_Date` and `Ship_Date` are set to **Date** type.
-     - Ensure `Sales`, `Profit`, and `Shipping_Cost` are set to **Fixed Decimal Number** (Currency).
-     - Ensure `Quantity` is set to **Whole Number**.
-     - Ensure `Discount` is set to **Decimal Number** (Percentage).
-   - `Dim_Customers`:
-     - Ensure `Postal_Code` is set to **Text** (so leading zeros are preserved).
-   - `Dim_Products`:
-     - Ensure `Cost_Price` and `List_Price` are set to **Fixed Decimal Number** (Currency).
+5. **Verify and adjust data types:**
+
+   **`Fact_Orders`**
+   - `Order_Date`, `Ship_Date` → **Date**
+   - `Sales`, `Profit`, `Shipping_Cost` → **Fixed Decimal Number** (Currency)
+   - `Quantity` → **Whole Number**
+   - `Discount` → **Decimal Number** (Percentage)
+
+   **`Dim_Customers`**
+   - `Postal_Code` → **Text** (preserves leading zeros)
+
+   **`Dim_Products`**
+   - `Cost_Price`, `List_Price` → **Fixed Decimal Number** (Currency)
+
 6. Click **Close & Apply** to load the data into the model.
+
+✅ **Checkpoint:** You should now see all three tables listed in the **Fields** pane on the right.
 
 ---
 
 ## 2. Setting Up the Data Model (Star Schema)
 
-Navigate to the **Model View** (left-hand sidebar, relationships icon) and verify or create the relationships:
+Go to **Model View** (relationships icon in the left sidebar) and confirm or create these relationships:
 
-1. Connect **Dim_Customers** to **Fact_Orders**:
-   - Drag `Customer_ID` from `Dim_Customers` to `Customer_ID` in `Fact_Orders`.
-   - **Relationship Type**: `1 to Many (1:*)`
-   - **Cross filter direction**: `Single` (Dim_Customers filters Fact_Orders)
+### Core Relationships
 
-2. Connect **Dim_Products** to **Fact_Orders**:
-   - Drag `Product_ID` from `Dim_Products` to `Product_ID` in `Fact_Orders`.
-   - **Relationship Type**: `1 to Many (1:*)`
-   - **Cross filter direction**: `Single` (Dim_Products filters Fact_Orders)
+| From Table | To Table | Key | Type | Cross-filter |
+|---|---|---|---|---|
+| `Dim_Customers` | `Fact_Orders` | `Customer_ID` | 1 : Many | Single |
+| `Dim_Products` | `Fact_Orders` | `Product_ID` | 1 : Many | Single |
 
-### Creating a Date Dimension (Dim_Date)
-For advanced time intelligence functions (like Month-over-Month or Year-over-Year calculations), it is best practice to create a dedicated Date table.
+Simply drag the key field from the dimension table onto the matching field in `Fact_Orders` to auto-create each relationship.
 
-1. In the **Report View** or **Data View**, click **New Table** on the ribbon and enter the following DAX:
+### Creating a Date Dimension (`Dim_Date`)
+
+For Month-over-Month, Year-over-Year, and other time-intelligence calculations, build a dedicated date table.
+
+1. In **Report View** or **Data View**, click **New Table** on the ribbon and enter:
+
    ```dax
    Dim_Date = 
    ADDCOLUMNS(
@@ -60,135 +116,160 @@ For advanced time intelligence functions (like Month-over-Month or Year-over-Yea
        "Day of Week Sort", WEEKDAY([Date], 2)
    )
    ```
-2. Sort the columns to display correctly:
-   - Select `Month Name` or `Month-Year` and click **Sort by column** -> Select `Month-Year Sort`.
-   - Select `Day of Week` and click **Sort by column** -> Select `Day of Week Sort`.
-3. In **Model View**, establish the relationship:
-   - Drag `Date` from `Dim_Date` to `Order_Date` in `Fact_Orders`.
-   - **Relationship Type**: `1 to Many (1:*)`
-   - **Cross filter direction**: `Single`
+
+2. **Fix the sort order** so months and weekdays display chronologically, not alphabetically:
+   - Select `Month Name` (or `Month-Year`) → **Sort by column** → `Month-Year Sort`
+   - Select `Day of Week` → **Sort by column** → `Day of Week Sort`
+
+3. **Link it to your fact table** in Model View:
+   - Drag `Date` (from `Dim_Date`) onto `Order_Date` (in `Fact_Orders`)
+   - Type: `1 : Many`, Cross-filter: `Single`
+
+✅ **Checkpoint:** Your model view should now resemble a clean star schema — one fact table in the center, three dimension tables surrounding it.
 
 ---
 
 ## 3. Writing DAX Measures
 
-It is recommended to create a blank table (e.g., `_Measures`) to store all calculations. Go to **Home** -> **Enter Data**, name the table `_Measures`, click **Load**, and then add the following measures there.
+Best practice: create a blank, dedicated table to hold all measures (keeps your model organized).
 
-### Core KPI Measures
+> **Home** → **Enter Data** → name it `_Measures` → **Load** (leave it empty — you'll attach measures to it).
 
-* **Total Sales**
-  ```dax
-  Total Sales = SUM(Fact_Orders[Sales])
-  ```
-  *Format as Currency ($)*
+### 🎯 Core KPI Measures
 
-* **Total Profit**
-  ```dax
-  Total Profit = SUM(Fact_Orders[Profit])
-  ```
-  *Format as Currency ($)*
+| Measure | DAX | Format |
+|---|---|---|
+| **Total Sales** | `Total Sales = SUM(Fact_Orders[Sales])` | Currency ($) |
+| **Total Profit** | `Total Profit = SUM(Fact_Orders[Profit])` | Currency ($) |
+| **Profit Margin %** | `Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)` | Percentage (%) |
+| **Total Orders** | `Total Orders = DISTINCTCOUNT(Fact_Orders[Order_ID])` | Whole Number |
+| **Average Order Value** | `Average Order Value = DIVIDE([Total Sales], [Total Orders], 0)` | Currency ($) |
+| **Total Quantity Sold** | `Total Quantity Sold = SUM(Fact_Orders[Quantity])` | Whole Number |
 
-* **Profit Margin %**
-  ```dax
-  Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
-  ```
-  *Format as Percentage (%)*
+### 📈 Time Intelligence / Trend Measures
 
-* **Total Orders**
-  ```dax
-  Total Orders = DISTINCTCOUNT(Fact_Orders[Order_ID])
-  ```
-  *Format as Whole Number*
+```dax
+Sales LY = CALCULATE([Total Sales], SAMEPERIODLASTYEAR(Dim_Date[Date]))
 
-* **Average Order Value (AOV)**
-  ```dax
-  Average Order Value = DIVIDE([Total Sales], [Total Orders], 0)
-  ```
-  *Format as Currency ($)*
+Sales YoY Growth % = DIVIDE([Total Sales] - [Sales LY], [Sales LY], 0)
 
-* **Total Quantity Sold**
-  ```dax
-  Total Quantity Sold = SUM(Fact_Orders[Quantity])
-  ```
-  *Format as Whole Number*
+Profit LY = CALCULATE([Total Profit], SAMEPERIODLASTYEAR(Dim_Date[Date]))
 
-### Time Intelligence / Trend Measures
+Profit YoY Growth % = DIVIDE([Total Profit] - [Profit LY], [Profit LY], 0)
+```
 
-* **Sales Last Year (LY)**
-  ```dax
-  Sales LY = CALCULATE([Total Sales], SAMEPERIODLASTYEAR(Dim_Date[Date]))
-  ```
+> ⚠️ **Note:** Time-intelligence functions like `SAMEPERIODLASTYEAR` require a proper, continuous `Dim_Date` table marked as a **Date Table** (right-click `Dim_Date` → **Mark as date table** → select the `Date` column).
 
-* **Sales Year-over-Year (YoY) Growth %**
-  ```dax
-  Sales YoY Growth % = DIVIDE([Total Sales] - [Sales LY], [Sales LY], 0)
-  ```
-  *Format as Percentage (%)*
-
-* **Profit Last Year (LY)**
-  ```dax
-  Profit LY = CALCULATE([Total Profit], SAMEPERIODLASTYEAR(Dim_Date[Date]))
-  ```
-
-* **Profit YoY Growth %**
-  ```dax
-  Profit YoY Growth % = DIVIDE([Total Profit] - [Profit LY], [Profit LY], 0)
-  ```
-  *Format as Percentage (%)*
+✅ **Checkpoint:** All measures should appear under `_Measures` in the Fields pane with a calculator icon.
 
 ---
 
 ## 4. Dashboard Design & Visual Layout
 
-To build a professional dashboard matching modern aesthetic standards (e.g., a dark/glassmorphic or crisp modern corporate look), configure the canvas and visuals as follows:
+Build a clean, modern dashboard using the layout below.
 
-### Theme and Canvas Setup
-* **Background Canvas Color**: Dark Slate/Charcoal `#1E2229` or White `#F8F9FA` for light mode.
-* **Fonts**: *Segoe UI* or *Inter*.
+### 🎨 Theme & Canvas Setup
 
-### Section 1: Interactive Slicers (Top Panel)
-Create horizontal, compact slicers for user interaction:
-* **Date Slicer**: Using `Dim_Date[Date]` configured as a date range slider.
-* **Region Slicer**: Using `Dim_Customers[Region]` configured as a single/multi-select dropdown or horizontal tile.
-* **Customer Segment**: Using `Dim_Customers[Segment]` configured as horizontal buttons/tiles.
-* **Product Category**: Using `Dim_Products[Category]` configured as a dropdown.
+| Element | Setting |
+|---|---|
+| Background (dark mode) | `#1E2229` (dark slate/charcoal) |
+| Background (light mode) | `#F8F9FA` |
+| Font | Segoe UI or Inter |
+| Accent colors | Violet (sales), Cyan/Teal (profit), Green/Red (positive/negative) |
 
-### Section 2: Key Performance Indicators (KPI Cards - Top Row)
-Place 5 card visuals side-by-side:
-1. **Total Sales**: Display `[Total Sales]` (e.g., display units: Auto, rounded).
-2. **Total Profit**: Display `[Total Profit]`. Apply conditional formatting to the font color: Green if `> 0`, Red if `< 0`.
-3. **Profit Margin %**: Display `[Profit Margin %]`.
-4. **Total Orders**: Display `[Total Orders]`.
-5. **AOV**: Display `[Average Order Value]`.
+### 🔹 Section 1 — Interactive Slicers (Top Panel)
 
-### Section 3: Charts & Analytical Visuals (Main Body)
+| Slicer | Field | Style |
+|---|---|---|
+| Date | `Dim_Date[Date]` | Date range slider |
+| Region | `Dim_Customers[Region]` | Dropdown / horizontal tiles |
+| Customer Segment | `Dim_Customers[Segment]` | Horizontal buttons/tiles |
+| Product Category | `Dim_Products[Category]` | Dropdown |
 
-* **Sales and Profit Monthly Trend** (Left, Large)
-  * **Visual**: *Line and stacked column chart* or *Line chart*.
-  * **X-Axis**: `Dim_Date[Month-Year]` (Sorted chronologically by Sort column).
-  * **Y-Axis**: `[Total Sales]` (Column or primary Line), `[Total Profit]` (Line on secondary Y-axis).
-  * **Aesthetics**: Turn on Zoom Slider. Use smooth curves (Spline lines) and distinct colors (e.g., Violet for Sales, Cyan/Teal for Profit).
+### 🔹 Section 2 — KPI Cards (Top Row)
 
-* **Sales by Category & Sub-Category** (Right, Top)
-  * **Visual**: *Clustered Bar Chart* (Horizontal).
-  * **Y-Axis**: `Dim_Products[Category]` -> `Dim_Products[Sub_Category]` (enabling drill-down).
-  * **X-Axis**: `[Total Sales]`.
-  * **Data Labels**: On.
+Place 5 **Card** visuals side by side:
 
-* **Customer Segment Sales Split** (Right, Bottom)
-  * **Visual**: *Donut Chart*.
-  * **Legend**: `Dim_Customers[Segment]`.
-  * **Values**: `[Total Sales]`.
-  * **Details**: Show both category name and percentage.
+1. **Total Sales** — `[Total Sales]`
+2. **Total Profit** — `[Total Profit]` (conditional font color: green if > 0, red if < 0)
+3. **Profit Margin %** — `[Profit Margin %]`
+4. **Total Orders** — `[Total Orders]`
+5. **AOV** — `[Average Order Value]`
 
-### Section 4: Geographical Distribution (Bottom Row)
-* **Regional Sales Map** (Left)
-  * **Visual**: *Map* or *Filled Map*.
-  * **Location**: `Dim_Customers[State]`.
-  * **Bubble Size**: `[Total Sales]`.
-  * **Bubble Color**: Color saturation based on `[Profit Margin %]` (revealing which states are most profitable).
+### 🔹 Section 3 — Charts & Analytical Visuals (Main Body)
 
-* **Detailed Transactions Table** (Right)
-  * **Visual**: *Matrix* or *Table*.
-  * **Columns**: `Customer_Name`, `Product_Name`, `Category`, `Total Sales`, `Total Profit`, `Profit Margin %`.
-  * **Features**: Sort by `Total Sales` descending. Turn on conditional formatting (data bars) for the Sales column to make it visually scannable.
+**Sales & Profit Monthly Trend** *(left, large)*
+- Visual: Line and stacked column chart
+- X-axis: `Dim_Date[Month-Year]` (sorted chronologically)
+- Y-axis: `[Total Sales]` (column), `[Total Profit]` (line, secondary axis)
+- Style: zoom slider on, spline lines, violet + teal color pairing
+
+**Sales by Category & Sub-Category** *(right, top)*
+- Visual: Clustered horizontal bar chart
+- Axis: `Dim_Products[Category]` → `Dim_Products[Sub_Category]` (drill-down enabled)
+- Values: `[Total Sales]`, data labels on
+
+**Customer Segment Sales Split** *(right, bottom)*
+- Visual: Donut chart
+- Legend: `Dim_Customers[Segment]`
+- Values: `[Total Sales]`
+- Detail labels: category name + percentage
+
+### 🔹 Section 4 — Geographical Distribution (Bottom Row)
+
+**Regional Sales Map** *(left)*
+- Visual: Filled map
+- Location: `Dim_Customers[State]`
+- Bubble size: `[Total Sales]`
+- Color saturation: `[Profit Margin %]` (highlights most profitable states)
+
+**Detailed Transactions Table** *(right)*
+- Visual: Matrix or Table
+- Columns: `Customer_Name`, `Product_Name`, `Category`, `Total Sales`, `Total Profit`, `Profit Margin %`
+- Sort: descending by `Total Sales`
+- Conditional formatting: data bars on the Sales column
+
+✅ **Checkpoint:** Your canvas should now have 4 visual zones: slicers on top, KPI cards below that, charts in the middle, and map/table at the bottom.
+
+---
+
+## 5. Publishing & Sharing
+
+Once your dashboard is complete:
+
+1. **Save** the file (`Ctrl+S`) as a `.pbix`.
+2. To share within an organization:
+   - Click **Publish** on the Home ribbon (requires a Power BI account/workspace).
+   - Choose your destination workspace and click **Select**.
+3. To share as a static file:
+   - Send the `.pbix` directly (recipient needs Power BI Desktop installed), **or**
+   - Export to PDF via **File** → **Export** → **Export to PDF** for a non-interactive snapshot.
+
+---
+
+## 🛠 Troubleshooting
+
+| Issue | Likely Cause | Fix |
+|---|---|---|
+| Relationships won't auto-detect | Column names/types don't match exactly | Check both columns are the same data type (e.g., both Text or both Whole Number) |
+| `SAMEPERIODLASTYEAR` returns blank | `Dim_Date` not marked as a date table, or date range too short | Mark as date table; ensure `Dim_Date` spans full years |
+| Map visual shows no bubbles | Ambiguous state names or missing geocoding | Add a `Country` field for context, or use latitude/longitude columns instead |
+| Slicers don't filter visuals | Relationship direction set to "Both" unexpectedly, or visual not in scope | Check relationship cross-filter direction in Model View |
+| Numbers show wrong currency symbol | Locale mismatch | Set format explicitly via **Modeling** → **Format** → Currency → choose region |
+
+---
+
+## ✅ Final Checklist
+
+- [ ] All 3 CSVs imported with correct data types
+- [ ] Star schema relationships created (`Dim_Customers`, `Dim_Products` → `Fact_Orders`)
+- [ ] `Dim_Date` table created and marked as a date table
+- [ ] All 10 DAX measures created in `_Measures` table
+- [ ] KPI cards, trend chart, category chart, donut chart added
+- [ ] Map and detail table added with conditional formatting
+- [ ] Slicers tested across all visuals
+- [ ] File saved and (optionally) published
+
+---
+
+<p align="center"><i>Built for data-driven decisions. 📈</i></p>
